@@ -1,0 +1,9 @@
+//Big O Analysis
+
+So I tried my best to get my program to run, but the 2 errors prevent me from doing a runtime analysis. So to try to lose the least amount of points possible, I’m going to do an analysis on insertion sort and bubble sort and how I think my program would compare and why.
+
+So for insertion sort, it basically takes one element, removes the element, compares it and then puts in in the location that it belongs in. The best case for this sorting mechanism is that the list is already sorted. This would be O(n). This also means that each element is only compared once. The worst case is that it is in the opposite order of what you wanted it to be sorted as, for example if you wanted the list to be in ascending order, but the list is in descending order, this would be O(n^2). It’s not optimal to use this for large sets of data, but for smaller arrays, this is great. So for this program, I think insertion sort would be great since there are only 50 integers. You wouldn’t be able to tell the difference as much. Maybe to the nanosecond compared to bubble sort but at this level, not so much.
+
+For bubble sort, it goes through and swaps pairs of numbers by comparing them with each other. Basically, the larger elements bubble to the top of the array or list. It’s worst and average case are both O(n^2). The best case 9that its already sorted) is O(n). This sorting mechanism is also not great when used for large sets of data. 
+
+Overall, I would say insertion sort is better for this case because even though both are really efficient for small sets of data, insertion sort is able to perform better on a list that doesn’t need as much sorting. The difference between the two sorting mechanisms for this program would have very small differences in the data sets.
